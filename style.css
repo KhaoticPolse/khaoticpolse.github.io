@@ -21,13 +21,13 @@ header,
 main,
 figure,
 footer {
-  padding: 1.25em 1.75em;
+  padding: 1.25em 1.5em;
 }
 
 header {
   display: flex;
   align-items: center;
-  margin: 1.5em 0;
+  margin: 1.5em 2.25em;
 }
 
 header img {
