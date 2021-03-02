@@ -34,7 +34,7 @@ header strong {
   font-size: 2.5em;
 }
 
-main > * {
+figure {
   margin: 1.25em 2.25em;
   padding: 1em 1.25em;
   background: #1f1f23;
