@@ -19,6 +19,7 @@ header {
 }
 
 footer {
+  padding: 1.25em 1em;
   background: #18181b;
   font-size: .8em;
 }
