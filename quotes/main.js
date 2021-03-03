@@ -3,7 +3,7 @@ function textElement(name, content) {
   return element.textContent = content, element;
 }
 
-fetch("quotes.json")
+fetch("/quotes.json")
   .then(response => response.json())
   .then(data => {
     const fragment = document.createDocumentFragment();
