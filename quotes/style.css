@@ -1,15 +1,16 @@
 header img {
-  max-width: 4em;
+  max-width: 3.8em;
   border-radius: 100%;
 }
 
 header strong {
-  margin-left: .75em;
+  margin-left: .7em;
   font-size: 2.5em;
 }
 
 figure {
-  margin: 1em 0;
+  margin: 1.25em 0;
+  padding: 1em;
   background: #1f1f23;
 }
 
