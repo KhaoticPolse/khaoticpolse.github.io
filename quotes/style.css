@@ -1,0 +1,43 @@
+header img {
+  max-width: 4em;
+  border-radius: 100%;
+}
+
+header strong {
+  margin-left: .75em;
+  font-size: 2.5em;
+}
+
+figure {
+  padding: 1em 1.25em;
+  background: #1f1f23;
+}
+
+figure:hover {
+  background: #9147ff;
+  transition: all .15s ease-in-out;
+}
+
+blockquote {
+  position: relative;
+  margin-left: 1.75em;
+  font-style: italic;
+  line-height: 1.25;
+}
+
+blockquote:before {
+  position: absolute;
+  top: -1em;
+  left: -.5em;
+  color: #464649;
+  content: "\201c";
+  font-style: normal;
+  font-size: 4em;
+  transform: scale(1, -1);
+}
+
+cite {
+  font-size: .9em;
+  font-style: normal;
+  font-weight: 300;
+}
