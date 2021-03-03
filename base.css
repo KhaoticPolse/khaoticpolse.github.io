@@ -8,18 +8,13 @@ body {
   font-family: "Space Grotesk";
 }
 
-header,
-main,
-footer {
-  padding: 1.5em;
-}
 header {
   display: flex;
   align-items: center;
 }
 
 footer {
-  padding: 1.25em 1em;
+  padding: 1em 2em;
   background: #18181b;
   font-size: .8em;
 }
