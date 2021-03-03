@@ -1,1 +1,17 @@
-const p=document.querySelector("main"),f=document.createDocumentFragment();function x(e,c){const n=document.createElement(e);return n.textContent=c,n}fetch("quotes.json").then(e=>e.json()).then(e=>{for(let t of e){const e=document.createElement("figure");e.appendChild(x("blockquote",t.quote)),e.appendChild(x("cite",t.from)),f.appendChild(e)}p.appendChild(f)});
+function textElement(name, content) {
+  const element = document.createElement(name);
+  return element.textContent = content, element;
+}
+
+fetch("quotes.json")
+  .then(response => response.json())
+  .then(data => {
+    const fragment = document.createDocumentFragment();
+    for (let obj of data) {
+      const container = document.createElement("figure");
+      container.appendChild(textElement("blockquote", obj.quote));
+      container.appendChild(textElement("cite", obj.from));
+      fragment.appendChild(container);
+    }
+    document.querySelector("main").appendChild(fragment);
+  });
