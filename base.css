@@ -14,13 +14,17 @@ footer {
   padding: 1.25em 1.5em;
 }
 
+header,
+footer {
+  margin-top: 2em;
+}
+
 header {
   display: flex;
   align-items: center;
 }
 
 footer {
-  margin-top: 2.5em;
   background: #18181b;
   font-size: .8em;
 }
